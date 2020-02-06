@@ -6,6 +6,9 @@
 #include <string.h>
 #include <iostream>
 
+//*new*
+#include "Player.h"
+
 
 class Level{
 public:
@@ -28,5 +31,9 @@ private:
 	// Level objects
 	GameObject testSprite;
 	sf::Texture texture;
+
+	//*new*
+	Player playerone;
+	
 
 };
